@@ -60,6 +60,7 @@ class reminderView : UIViewController, UITableViewDelegate, UITableViewDataSourc
         exampleInstantNotification()
     }
     
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return myDiet.count
     }
