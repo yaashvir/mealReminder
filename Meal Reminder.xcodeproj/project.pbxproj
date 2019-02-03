@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3C500B8B2206C88000173682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C500B8A2206C88000173682 /* AppDelegate.swift */; };
-		3C500B8D2206C88000173682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C500B8C2206C88000173682 /* ViewController.swift */; };
-		3C500B902206C88000173682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C500B8E2206C88000173682 /* Main.storyboard */; };
+		3C500B8D2206C88000173682 /* reminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C500B8C2206C88000173682 /* reminderView.swift */; };
 		3C500B922206C88700173682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C500B912206C88700173682 /* Assets.xcassets */; };
-		3C500B952206C88700173682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C500B932206C88700173682 /* LaunchScreen.storyboard */; };
 		3C500BA02206C88700173682 /* Meal_ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C500B9F2206C88700173682 /* Meal_ReminderTests.swift */; };
 		3C500BAB2206C88700173682 /* Meal_ReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C500BAA2206C88700173682 /* Meal_ReminderUITests.swift */; };
+		B689A815B8754FF304179215 /* Pods_Meal_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563A48D0D33D3C262D4172E9 /* Pods_Meal_Reminder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +35,8 @@
 /* Begin PBXFileReference section */
 		3C500B872206C88000173682 /* Meal Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C500B8A2206C88000173682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C500B8C2206C88000173682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C500B8F2206C88000173682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C500B8C2206C88000173682 /* reminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderView.swift; sourceTree = "<group>"; };
 		3C500B912206C88700173682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3C500B942206C88700173682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C500B962206C88700173682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C500B9B2206C88700173682 /* Meal ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal ReminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C500B9F2206C88700173682 /* Meal_ReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_ReminderTests.swift; sourceTree = "<group>"; };
@@ -47,6 +44,9 @@
 		3C500BA62206C88700173682 /* Meal ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal ReminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C500BAA2206C88700173682 /* Meal_ReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_ReminderUITests.swift; sourceTree = "<group>"; };
 		3C500BAC2206C88700173682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563A48D0D33D3C262D4172E9 /* Pods_Meal_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meal_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		682DC75744581A6D2CBD8D68 /* Pods-Meal Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal Reminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meal Reminder/Pods-Meal Reminder.debug.xcconfig"; sourceTree = "<group>"; };
+		C6A40C339F9040883F580A18 /* Pods-Meal Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal Reminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meal Reminder/Pods-Meal Reminder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B689A815B8754FF304179215 /* Pods_Meal_Reminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +82,8 @@
 				3C500B9E2206C88700173682 /* Meal ReminderTests */,
 				3C500BA92206C88700173682 /* Meal ReminderUITests */,
 				3C500B882206C88000173682 /* Products */,
+				AAADACC2AE8A7EF9116A7810 /* Pods */,
+				D0568D6FF4DAC581B5B55AF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				3C500B8A2206C88000173682 /* AppDelegate.swift */,
-				3C500B8C2206C88000173682 /* ViewController.swift */,
-				3C500B8E2206C88000173682 /* Main.storyboard */,
+				3C500B8C2206C88000173682 /* reminderView.swift */,
 				3C500B912206C88700173682 /* Assets.xcassets */,
-				3C500B932206C88700173682 /* LaunchScreen.storyboard */,
 				3C500B962206C88700173682 /* Info.plist */,
 			);
 			path = "Meal Reminder";
@@ -125,6 +126,23 @@
 			path = "Meal ReminderUITests";
 			sourceTree = "<group>";
 		};
+		AAADACC2AE8A7EF9116A7810 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				682DC75744581A6D2CBD8D68 /* Pods-Meal Reminder.debug.xcconfig */,
+				C6A40C339F9040883F580A18 /* Pods-Meal Reminder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0568D6FF4DAC581B5B55AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				563A48D0D33D3C262D4172E9 /* Pods_Meal_Reminder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C500BAF2206C88700173682 /* Build configuration list for PBXNativeTarget "Meal Reminder" */;
 			buildPhases = (
+				24EF7F931AF80CF3CF3CB60C /* [CP] Check Pods Manifest.lock */,
 				3C500B832206C88000173682 /* Sources */,
 				3C500B842206C88000173682 /* Frameworks */,
 				3C500B852206C88000173682 /* Resources */,
+				C4C2664322AE271BE76D55B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C500B952206C88700173682 /* LaunchScreen.storyboard in Resources */,
 				3C500B922206C88700173682 /* Assets.xcassets in Resources */,
-				3C500B902206C88000173682 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +269,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24EF7F931AF80CF3CF3CB60C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meal Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4C2664322AE271BE76D55B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Meal Reminder/Pods-Meal Reminder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meal Reminder/Pods-Meal Reminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C500B832206C88000173682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C500B8D2206C88000173682 /* ViewController.swift in Sources */,
+				3C500B8D2206C88000173682 /* reminderView.swift in Sources */,
 				3C500B8B2206C88000173682 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,25 +358,6 @@
 			targetProxy = 3C500BA72206C88700173682 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3C500B8E2206C88000173682 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C500B8F2206C88000173682 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3C500B932206C88700173682 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C500B942206C88700173682 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3C500BAD2206C88700173682 /* Debug */ = {
@@ -430,6 +478,7 @@
 		};
 		3C500BB02206C88700173682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682DC75744581A6D2CBD8D68 /* Pods-Meal Reminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +496,7 @@
 		};
 		3C500BB12206C88700173682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A40C339F9040883F580A18 /* Pods-Meal Reminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

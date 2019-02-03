@@ -1,0 +1,6 @@
+framework module Pods_Meal_Reminder {
+  umbrella header "Pods-Meal Reminder-umbrella.h"
+
+  export *
+  module * { export * }
+}
